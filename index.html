@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<script>
+ // Implémentation d'une manche
+ /*function comparer(choix1, choix2) {
+                if (choix1 === choix2) {
+                    return "égalité";
+                }
+
+                switch (choix1) {
+                    case "pierre":
+                        return choix2 === "ciseaux" ? "ordi" : "joueur";
+                    case "feuille":
+                        return choix2 === "pierre" ? "ordi" : "joueur";
+                    case "ciseaux":
+                        return choix2 === "feuille" ? "ordi" : "joueur";
+                    default:
+                        throw new Error("Choix invalide.");
+                }
+            }
+            
+
+            // Implémentation d'une partie en 3 manches
+           function jouerPartie() {
+                let scoreOrdi = 0;
+                let scoreJoueur = 0;
+
+                for (let i = 0; i < 3; i++) {
+                    let choixOrdi = Math.random() < 0.33 ? "pierre" : Math.random() < 0.5 ? "feuille" : "ciseaux";
+                    let choixUtilisateur = prompt("Choisissez parmi pierre, feuille ou ciseaux : ").toLowerCase();
+
+                    let resultat = comparer(choixOrdi, choixUtilisateur);
+                    console.log("Le résultat de cette manche est :", resultat);
+
+                    if (resultat === "ordi") {
+                        scoreOrdi++;
+                    } else if (resultat === "joueur") {
+                        scoreJoueur++;
+                    }
+                }
+
+                if (scoreOrdi > scoreJoueur) {
+                    console.log("L'ordinateur a remporté la partie.");
+                } else if (scoreOrdi < scoreJoueur) {
+                    console.log("Le joueur a remporté la partie.");
+                } else {
+                    console.log("La partie est nulle.");//
+                }
+            }*/
+</script>
+//
+<p>C'est l'histoire d'un garçon troublé</p>
+<p class="spoiler">car il s'avère que son ours en peluche a disparu</p>
+<p class="spoiler">mais finalement il le retrouve</p>
+
+<p id="premier">texte important</p>
+<p id="second">autre texte</p>
+
+
+<article class="Romans"> La servante écarlate </article>
+<article class="Romans"> Hunger Games </article>
+<article class="Romans"> Harry Potter </article>
+<article class="Romans"> Orgueil et préjugés </article>
+
+<article class="Mangas"> Death Note </article>
+<article class="Mangas"> Assassination Classroom </article>
+<article class="Mangas"> Pokémon </article>
+<article class="Mangas"> King's Game </article>
+
+<article class="Films">Cruella </article>
+<article class="Films"> Divergente </article>
+<article class="Films"> Aquaman 2 </article>
+<article class="Films"> Joker </article>
+
+
+<div style="padding: 10px;">
+    <button>Mon 1er Bouton</button>
+  </div>
+  <div style="padding: 10px;">
+    <button>Mon 2ème Bouton</button>
+  </div>
+  <div style="padding: 10px;">
+    <button>Mon 3ème Bouton</button>
+  </div>
+
+
+</body> 
+<script type="text/JavaScript" src="INDEX.JS"></script>
+</html>
